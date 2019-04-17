@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background: #ccc;
+   
+    
+
+}
+.header img{
+    width: 100%;
+    height: 400px;
+}
+.main{
+    width: 100%;
+    flex: 1;
+}
+.main .icfone{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    line-height: 100px;
+}
+.icfone a{
+    width: 20%;
+    height: 180px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-size: 29px;
+}
+.icfone a i{
+    font-size: 33px;
+    color:orange;
+
+}
+.contain{
+    width: 100%;
+    height: 400px;
+}
+.contain img{
+    width: 100%;
+    height: 400px;
+}
+.footer{
+    width: 100%;
+    height: 88px;
+    background: #ccc;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    line-height: 45px;
+}
+.footer a{
+    color: #000;
+    text-decoration: none;
+}
+.footer a i{
+    font-size: 30px;
+}
